@@ -143,6 +143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   width: 7
   height: 9
+  borderSize: 2
   tilePrefab: {fileID: 4004534509210375795, guid: 62adb904840c24e50820ff02e2ef0847,
     type: 3}
 --- !u!4 &272339622
@@ -235,7 +236,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 3, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
