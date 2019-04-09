@@ -56,13 +56,9 @@ public class Board : MonoBehaviour
     void SetupCamera()
     {
         Camera.main.transform.position = new Vector3((float)(width-1)/2f,(float)(height-1)/2f,-10f);
-
         float aspectRatio = (float) Screen.width / (float) Screen.height;
-
         float verticalSize = (float) height / 2f + (float) borderSize;
-
         float horizontalSize = ((float) width / 2f + (float) borderSize) / aspectRatio;
-
         Camera.main.orthographicSize = (verticalSize > horizontalSize) ? verticalSize : horizontalSize;
 
     }
@@ -74,7 +70,6 @@ public class Board : MonoBehaviour
         {
             Debug.LogWarning("Board:" + randomIdx + "does not contain a valid gamepiece prefab.");
         }
-
         return gamePiecePrefabs[randomIdx];
     }
 
