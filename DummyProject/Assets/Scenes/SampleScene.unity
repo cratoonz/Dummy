@@ -149,10 +149,10 @@ MonoBehaviour:
   gamePiecePrefabs:
   - {fileID: 6025338195264906416, guid: 6a725189037ef496c872b891514776e8, type: 3}
   - {fileID: 4176059052211837701, guid: 690082481f5934beebd1764442317e26, type: 3}
-  - {fileID: 8446212401793057980, guid: 86fa5d619b23440c3b691052323ef65e, type: 3}
+  - {fileID: 6785988635454651755, guid: 1a8337f631ef24a0d9e2677b904da001, type: 3}
   - {fileID: 4138892611265572064, guid: 0da0d6012956248669c17b3f9e700c1f, type: 3}
-  - {fileID: 7841136869972139522, guid: db53eb7c3877d41fcb4761b67340f00a, type: 3}
-  swapTime: 0.5
+  swapTime: 0.4
+  highlightTime: 0.2
 --- !u!4 &272339622
 Transform:
   m_ObjectHideFlags: 0
@@ -398,7 +398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7568628, g: 0.627451, b: 0.6313726, a: 1}
+  m_Color: {r: 0.990566, g: 0.3224012, b: 0.649192, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
