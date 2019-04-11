@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 635029672387710210}
   - component: {fileID: 7490272482800358739}
   - component: {fileID: 5311110790565143580}
+  - component: {fileID: 6548075465544705400}
   m_Layer: 0
   m_Name: IndigoDot
   m_TagString: Untagged
@@ -96,3 +97,22 @@ MonoBehaviour:
   yIndex: 0
   interpolation: 4
   matchValue: 3
+--- !u!95 &6548075465544705400
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6785988635454651755}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ae38fed753af248f5812972e32dbae49, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

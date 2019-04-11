@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 876908535200316596}
   - component: {fileID: 1635653896130376343}
   - component: {fileID: 1423788989338645106}
+  - component: {fileID: 3497257112033594385}
   m_Layer: 0
   m_Name: RedDot
   m_TagString: Untagged
@@ -96,3 +97,22 @@ MonoBehaviour:
   yIndex: 0
   interpolation: 4
   matchValue: 6
+--- !u!95 &3497257112033594385
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4138892611265572064}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ae38fed753af248f5812972e32dbae49, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

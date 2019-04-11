@@ -46,6 +46,8 @@ public class GamePiece : MonoBehaviour
         
     }
 
+    private Animator anim;
+
     // Update is called once per frame
     void Update()
     {
@@ -94,6 +96,10 @@ public class GamePiece : MonoBehaviour
     IEnumerator MoveRoutine(Vector3 destination, float timeToMove)
     {
         Vector3 startPosition = transform.position;
+
+        anim = GetComponent<Animator>();
+        
+        anim.SetTrigger("Bounce");
 
         bool reachedDestination = false;
 
