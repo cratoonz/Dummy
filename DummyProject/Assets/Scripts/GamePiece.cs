@@ -99,7 +99,7 @@ public class GamePiece : MonoBehaviour
 
         anim = GetComponent<Animator>();
         
-        anim.SetTrigger("Bounce");
+        anim.SetTrigger("Bounce2");
 
         bool reachedDestination = false;
 
